@@ -16,9 +16,4 @@ public class CustomerListener extends Base implements ITestListener{
 			e.printStackTrace();
 		}
 	}
-
-	public void onTestFailedWithTimeout(ITestResult result) {
-		
-	}
-
 }
